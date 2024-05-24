@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(80, 65, 45)
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:rgba(247, 170, 18, 0.123);
+    color: white;
+
+}
+span{
+    color: violet;
+}
+.menu{
+    margin-right: 10x;
+
+}
+.menu a{
+    margin-right: 30px;
+    color:snow;
+    font-size: 70px;
+    text-decoration: mediumaquamarine;
+    font-weight: 400;
+}
+.menu a:hover{
+    color:#023f79;
+    padding: 5px;
+    border-bottom: 5px solid #663c66e1;
+    border-top: 6px solid #c00ab1e1;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    padding-left: 200px;
+}
+.container{
+    width: 100%;
+    margin-right: 10px;
+    
+    padding-top: 100px;
+    
+}
+.button{
+    text-align: end;
+}
+.logo{
+    font-size: 60px;
+    margin-left: 50px;
+}
+.button a{
+    text-decoration: none;
+    color: brown;
+    background-color: #ca197ae1;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s;
+}
+.icon{
+    height: 100px;
+    text-align: center;
+}
+i{
+    font-size: 50px;
+    text-align: center;
+    margin-right: 20px
+
+}
+.button a:hover{
+    background-color: blue;
+    border: 2px solid skyblue;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid #7fa9d1e1;
+}
+.active{
+    margin-left: 25px;
+}
+p{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+h4{
+    font-size: 30px;
+}
+h1{
+    font-size: 55px;
+}

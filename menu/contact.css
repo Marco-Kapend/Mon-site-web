@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: slategray;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:cornflowerblue;
+    
+
+}
+span{
+    color: #4d000098;
+}
+.menu{
+    margin-right: 60px;
+
+}
+.menu a{
+    margin-right: 60px;
+    color:honeydew;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.menu a:hover{
+    color:#560761e1;
+    padding: 5px;
+    border-bottom: 2px solid #c5d17f00;
+    border-top: 2px solid #807fd12c;
+}
